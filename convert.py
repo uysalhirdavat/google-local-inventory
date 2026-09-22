@@ -35,6 +35,8 @@ ET.SubElement(channel, "link").text = "https://www.uysalhirdavat.com/"
 ET.SubElement(channel, "description").text = "Google Merchant Center Yerel Envanter"
 
 count = 0
+in_stock_count = 0
+out_of_stock_count = 0
 
 for item in root.findall(".//item"):
 
@@ -48,12 +50,28 @@ for item in root.findall(".//item"):
 
     product_id = product_id.strip()
 
+    # Ticimax stok bilgisini Google formatina cevir
     if availability:
         availability = availability.strip().lower()
+
+        availability_map = {
+            "in stock": "in_stock",
+            "in_stock": "in_stock",
+            "out of stock": "out_of_stock",
+            "out_of_stock": "out_of_stock",
+            "limited availability": "limited_availability",
+            "limited_availability": "limited_availability",
+            "on display to order": "on_display_to_order",
+            "on_display_to_order": "on_display_to_order"
+        }
+
+        availability = availability_map.get(
+            availability,
+            "out_of_stock"
+        )
     else:
         availability = "out_of_stock"
 
-    # Google'in kabul ettigi stok durumlarini koru
     valid_availability = {
         "in_stock",
         "out_of_stock",
@@ -64,10 +82,13 @@ for item in root.findall(".//item"):
     if availability not in valid_availability:
         availability = "out_of_stock"
 
-    # Indirimli fiyat varsa onu fiziksel magazada kullan
-    final_price = sale_price.strip() if sale_price and sale_price.strip() else (
-        price.strip() if price else ""
-    )
+    # Indirimli fiyat varsa onu kullan, yoksa normal fiyati kullan
+    if sale_price and sale_price.strip():
+        final_price = sale_price.strip()
+    elif price and price.strip():
+        final_price = price.strip()
+    else:
+        final_price = ""
 
     new_item = ET.SubElement(channel, "item")
 
@@ -77,6 +98,12 @@ for item in root.findall(".//item"):
 
     if final_price:
         ET.SubElement(new_item, g("price")).text = final_price
+
+    if availability == "in_stock":
+        in_stock_count += 1
+
+    if availability == "out_of_stock":
+        out_of_stock_count += 1
 
     count += 1
 
@@ -91,4 +118,6 @@ tree.write(
 )
 
 print(f"Tamamlandi: {count} urun yazildi.")
+print(f"Stokta: {in_stock_count}")
+print(f"Stokta yok: {out_of_stock_count}")
 print(f"Dosya: {OUTPUT_FILE}")
