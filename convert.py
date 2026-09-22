@@ -8,8 +8,10 @@ OUTPUT_FILE = "local-inventory.xml"
 NS_G = "http://base.google.com/ns/1.0"
 ET.register_namespace("g", NS_G)
 
+
 def g(tag):
     return f"{{{NS_G}}}{tag}"
+
 
 print("Ticimax XML indiriliyor...")
 
@@ -23,9 +25,10 @@ with urllib.request.urlopen(req, timeout=120) as response:
 
 root = ET.fromstring(xml_data)
 
+# xmlns:g, ET.register_namespace tarafindan otomatik eklenecek.
+# Buraya tekrar xmlns:g yazmiyoruz.
 rss = ET.Element("rss", {
-    "version": "2.0",
-    "xmlns:g": NS_G
+    "version": "2.0"
 })
 
 channel = ET.SubElement(rss, "channel")
