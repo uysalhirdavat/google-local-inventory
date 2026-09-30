@@ -77,12 +77,6 @@
       <g:price>8935.03 TRY</g:price>
     </item>
     <item>
-      <g:id>51022</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>8993.71 TRY</g:price>
-    </item>
-    <item>
       <g:id>51025</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -3029,12 +3023,6 @@
       <g:price>59.14 EUR</g:price>
     </item>
     <item>
-      <g:id>51593</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>67.30 EUR</g:price>
-    </item>
-    <item>
       <g:id>51594</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -3093,12 +3081,6 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>96.50 EUR</g:price>
-    </item>
-    <item>
-      <g:id>51604</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>83.00 EUR</g:price>
     </item>
     <item>
       <g:id>51605</g:id>
@@ -6371,6 +6353,12 @@
       <g:price>92.40 USD</g:price>
     </item>
     <item>
+      <g:id>52288</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>130.80 USD</g:price>
+    </item>
+    <item>
       <g:id>52289</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -7061,6 +7049,12 @@
       <g:price>155.74 TRY</g:price>
     </item>
     <item>
+      <g:id>52446</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>182.44 TRY</g:price>
+    </item>
+    <item>
       <g:id>52447</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -7229,12 +7223,6 @@
       <g:price>34.20 USD</g:price>
     </item>
     <item>
-      <g:id>52482</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>41.76 USD</g:price>
-    </item>
-    <item>
       <g:id>52483</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -7329,6 +7317,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>855.56 TRY</g:price>
+    </item>
+    <item>
+      <g:id>52504</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>3507.77 TRY</g:price>
     </item>
     <item>
       <g:id>52505</g:id>
@@ -7485,6 +7479,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>2660.86 TRY</g:price>
+    </item>
+    <item>
+      <g:id>52534</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>12178.56 TRY</g:price>
     </item>
     <item>
       <g:id>52535</g:id>
@@ -9501,6 +9501,18 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>202.90 TRY</g:price>
+    </item>
+    <item>
+      <g:id>53317</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>1069.16 TRY</g:price>
+    </item>
+    <item>
+      <g:id>53318</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>1716.06 TRY</g:price>
     </item>
     <item>
       <g:id>53320</g:id>
@@ -22589,10 +22601,22 @@
       <g:price>757.76 TRY</g:price>
     </item>
     <item>
+      <g:id>55654</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>1503.96 TRY</g:price>
+    </item>
+    <item>
       <g:id>55656</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>1108.69 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55659</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>1137.61 TRY</g:price>
     </item>
     <item>
       <g:id>55661</g:id>
@@ -22733,6 +22757,12 @@
       <g:price>244.87 TRY</g:price>
     </item>
     <item>
+      <g:id>55734</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>279.59 TRY</g:price>
+    </item>
+    <item>
       <g:id>55735</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -22775,6 +22805,12 @@
       <g:price>3419.59 TRY</g:price>
     </item>
     <item>
+      <g:id>55756</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>244.87 TRY</g:price>
+    </item>
+    <item>
       <g:id>55758</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -22799,6 +22835,24 @@
       <g:price>225.60 TRY</g:price>
     </item>
     <item>
+      <g:id>55771</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>372.13 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55772</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>199.56 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55773</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>214.02 TRY</g:price>
+    </item>
+    <item>
       <g:id>55774</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -22811,10 +22865,22 @@
       <g:price>1591.69 TRY</g:price>
     </item>
     <item>
+      <g:id>55784</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>5059.49 TRY</g:price>
+    </item>
+    <item>
       <g:id>55786</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>1349.71 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55787</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>5766.17 TRY</g:price>
     </item>
     <item>
       <g:id>55791</g:id>
@@ -22985,6 +23051,12 @@
       <g:price>5828.83 TRY</g:price>
     </item>
     <item>
+      <g:id>55839</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>477.22 TRY</g:price>
+    </item>
+    <item>
       <g:id>55840</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -23001,6 +23073,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>840.67 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55843</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>214.02 TRY</g:price>
     </item>
     <item>
       <g:id>55844</g:id>
@@ -23025,6 +23103,18 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>234.28 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55848</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>234.28 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55849</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>279.59 TRY</g:price>
     </item>
     <item>
       <g:id>55852</g:id>
@@ -23109,6 +23199,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>399.13 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55875</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>225.60 TRY</g:price>
     </item>
     <item>
       <g:id>55876</g:id>
@@ -23811,6 +23907,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>1386.79 TRY</g:price>
+    </item>
+    <item>
+      <g:id>56023</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>1895.38 TRY</g:price>
     </item>
     <item>
       <g:id>56025</g:id>
@@ -26895,12 +26997,6 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>306.72 TRY</g:price>
-    </item>
-    <item>
-      <g:id>56617</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>138.00 TRY</g:price>
     </item>
     <item>
       <g:id>56618</g:id>
@@ -77087,6 +77183,12 @@
       <g:price>1074.95 TRY</g:price>
     </item>
     <item>
+      <g:id>66260</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>818.51 TRY</g:price>
+    </item>
+    <item>
       <g:id>66262</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -78027,6 +78129,18 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>31951.92 TRY</g:price>
+    </item>
+    <item>
+      <g:id>66482</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>10000.00 TRY</g:price>
+    </item>
+    <item>
+      <g:id>66483</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>13361.71 TRY</g:price>
     </item>
   </channel>
 </rss>
