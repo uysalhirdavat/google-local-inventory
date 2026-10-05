@@ -7751,6 +7751,12 @@
       <g:price>48.95 TRY</g:price>
     </item>
     <item>
+      <g:id>52593</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>1001.16 TRY</g:price>
+    </item>
+    <item>
       <g:id>52594</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -22845,6 +22851,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>297.90 TRY</g:price>
+    </item>
+    <item>
+      <g:id>55805</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>337.43 TRY</g:price>
     </item>
     <item>
       <g:id>55806</g:id>
