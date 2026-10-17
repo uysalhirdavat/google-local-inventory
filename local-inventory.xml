@@ -21395,12 +21395,6 @@
       <g:price>9.12 USD</g:price>
     </item>
     <item>
-      <g:id>55380</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>8.69 USD</g:price>
-    </item>
-    <item>
       <g:id>55381</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -27222,12 +27216,6 @@
     </item>
     <item>
       <g:id>56746</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>out_of_stock</g:availability>
-      <g:price>0.00 TRY</g:price>
-    </item>
-    <item>
-      <g:id>56747</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>out_of_stock</g:availability>
       <g:price>0.00 TRY</g:price>
