@@ -335,12 +335,6 @@
       <g:price>15000.00 TRY</g:price>
     </item>
     <item>
-      <g:id>51084</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>13200.00 TRY</g:price>
-    </item>
-    <item>
       <g:id>51085</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>out_of_stock</g:availability>
@@ -25238,7 +25232,7 @@
       <g:id>56245</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
-      <g:price>11289.60 TRY</g:price>
+      <g:price>10350.00 TRY</g:price>
     </item>
     <item>
       <g:id>56247</g:id>
