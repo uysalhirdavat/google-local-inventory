@@ -26,7 +26,10 @@ jobs:
           python-version: "3.12"
 
       - name: Yerel envanter XML olustur
-        run: python convert.py
+        id: convert
+        run: |
+          python convert.py 2>&1 | tee /tmp/convert-output.log
+          exit ${PIPESTATUS[0]}
 
       - name: XML dosyasini kaydet
         run: |
@@ -34,4 +37,26 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add local-inventory.xml
           git diff --cached --quiet || git commit -m "Yerel envanter otomatik guncellendi"
+          git push
+
+      - name: Son calisma sonucunu kaydet
+        if: always()
+        env:
+          CONVERT_STATUS: ${{ steps.convert.outcome }}
+        run: |
+          {
+            echo "Tarih (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+            echo "Donusturme sonucu: $CONVERT_STATUS"
+            echo "Commit: $GITHUB_SHA"
+            echo ""
+            if [ -f /tmp/convert-output.log ]; then
+              cat /tmp/convert-output.log
+            else
+              echo "Donusum log dosyasi olusmadi."
+            fi
+          } > local-inventory-last-run.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add local-inventory-last-run.txt
+          git diff --cached --quiet || git commit -m "Record local inventory conversion check"
           git push
