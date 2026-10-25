@@ -2,6 +2,10 @@ name: Yerel Envanteri Guncelle
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - convert.py
+      - .github/workflows/update.yml
   schedule:
     - cron: "15 */6 * * *"
 
