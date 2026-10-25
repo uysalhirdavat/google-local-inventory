@@ -153,10 +153,10 @@ def build_feed(source_root):
     if with_quantity == 0:
         sample = next((item_fields(item) for item in source_root.iter()
                        if field_name(item.tag) == "item"), {})
-        raise RuntimeError(
-            "Ticimax XML'de sayisal stok alani bulunamadi. "
-            f"Tespit edilen alanlar: {', '.join(sorted(sample))}. "
-            "XML cikti ayarlarina stok adedini ekleyin; dosya guncellenmedi."
+        print(
+            "UYARI: Ticimax XML'de sayisal stok alani bulunamadi. "
+            "Google'a quantity gonderilmedi; mevcut availability ve fiyat akisi korundu. "
+            f"Kaynak alanlar: {', '.join(sorted(sample))}."
         )
 
     return rss, (total, with_quantity, missing_quantity, in_stock, limited, out_of_stock)
