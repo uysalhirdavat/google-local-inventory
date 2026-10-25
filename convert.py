@@ -119,6 +119,13 @@ def build_feed(source_root):
         quantity = parse_quantity(raw_quantity)
         availability = choose_availability(source_status, quantity)
 
+        # Yerel envanterde stokta olmayan urunleri hic gonderme.
+        # Bu urunlerin onceki Merchant Center kayitlari veri kaynagi
+        # yenilendiginde kaldirilabilir; guncelleme anlik olmayabilir.
+        if availability == "out_of_stock":
+            out_of_stock += 1
+            continue
+
         # Mevcut fiyat secimi aynen korunur: once sale_price, yoksa price.
         price = read_field(fields, "price")
         sale_price = read_field(fields, "sale_price")
@@ -143,8 +150,6 @@ def build_feed(source_root):
             in_stock += 1
         elif availability == "limited_availability":
             limited += 1
-        elif availability == "out_of_stock":
-            out_of_stock += 1
         total += 1
 
     # Sayisal stok hic gelmediyse mevcut Google dosyasini bozmayalim.
@@ -182,7 +187,8 @@ def main():
     total, quantified, missing, in_stock, limited, out_of_stock = counts
     print(f"Tamamlandi: {total} urun yazildi.")
     print(f"Stok adedi bulunan: {quantified}; bulunmayan: {missing}")
-    print(f"Stokta: {in_stock}; sinirli stokta: {limited}; stokta yok: {out_of_stock}")
+    print(f"Stokta: {in_stock}; sinirli stokta: {limited}")
+    print(f"XML'e eklenmeyen stokta olmayan: {out_of_stock}")
     print(f"Dosya: {output}")
 
 
