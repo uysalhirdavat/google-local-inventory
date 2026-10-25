@@ -1,14 +1,10 @@
-Tarih (UTC): 2026-10-25 14:33:52
-Donusturme sonucu: failure
-Commit: f96a7aeb16dbe79efb18fd5c82c784eb621d3ba8
+Tarih (UTC): 2026-10-25 14:35:08
+Donusturme sonucu: success
+Commit: bb99ab2eda0b4c1caacfc0c039b1723025508913
 
 Ticimax XML indiriliyor...
-Traceback (most recent call last):
-  File "/home/runner/work/google-local-inventory/google-local-inventory/convert.py", line 190, in <module>
-    main()
-  File "/home/runner/work/google-local-inventory/google-local-inventory/convert.py", line 173, in main
-    rss, counts = build_feed(source_root)
-                  ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/google-local-inventory/google-local-inventory/convert.py", line 156, in build_feed
-    raise RuntimeError(
-RuntimeError: Ticimax XML'de sayisal stok alani bulunamadi. Tespit edilen alanlar: additionalimagelink, availability, brand, condition, description, googleproductcategory, id, identifierexists, imagelink, link, mpn, price, producttype, shipping, title. XML cikti ayarlarina stok adedini ekleyin; dosya guncellenmedi.
+UYARI: Ticimax XML'de sayisal stok alani bulunamadi. Google'a quantity gonderilmedi; mevcut availability ve fiyat akisi korundu. Kaynak alanlar: additionalimagelink, availability, brand, condition, description, googleproductcategory, id, identifierexists, imagelink, link, mpn, price, producttype, shipping, title.
+Tamamlandi: 13922 urun yazildi.
+Stok adedi bulunan: 0; bulunmayan: 13922
+Stokta: 13808; sinirli stokta: 0; stokta yok: 114
+Dosya: local-inventory.xml
