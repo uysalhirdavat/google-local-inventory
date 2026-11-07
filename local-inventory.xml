@@ -46721,12 +46721,6 @@
       <g:price>176.40 TRY</g:price>
     </item>
     <item>
-      <g:id>61027</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>11.76 TRY</g:price>
-    </item>
-    <item>
       <g:id>61028</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -46749,12 +46743,6 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>54.60 TRY</g:price>
-    </item>
-    <item>
-      <g:id>61032</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>37.63 TRY</g:price>
     </item>
     <item>
       <g:id>61033</g:id>
@@ -59459,12 +59447,6 @@
       <g:price>192.71 TRY</g:price>
     </item>
     <item>
-      <g:id>63519</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>13.17 TRY</g:price>
-    </item>
-    <item>
       <g:id>63521</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -63477,12 +63459,6 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>19.47 TRY</g:price>
-    </item>
-    <item>
-      <g:id>64227</g:id>
-      <g:store_code>12313834437669728221</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>42.34 TRY</g:price>
     </item>
     <item>
       <g:id>64228</g:id>
@@ -82199,6 +82175,12 @@
       <g:price>55.76 TRY</g:price>
     </item>
     <item>
+      <g:id>69104</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>72.07 TRY</g:price>
+    </item>
+    <item>
       <g:id>69105</g:id>
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -82665,6 +82647,12 @@
       <g:store_code>12313834437669728221</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>11511.63 TRY</g:price>
+    </item>
+    <item>
+      <g:id>69189</g:id>
+      <g:store_code>12313834437669728221</g:store_code>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.07 TRY</g:price>
     </item>
     <item>
       <g:id>69190</g:id>
