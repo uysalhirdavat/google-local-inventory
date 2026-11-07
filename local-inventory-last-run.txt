@@ -1,6 +1,6 @@
-Tarih (UTC): 2026-11-06 19:27:44
+Tarih (UTC): 2026-11-07 06:05:19
 Donusturme sonucu: success
-Commit: 5edb0543f7e0e734f19e34c4699fc606ce0ece14
+Commit: dc429645b8c7da7f8f48cf97edc901f37cfe9678
 
 Ticimax XML indiriliyor...
 UYARI: Ticimax XML'de sayisal stok alani bulunamadi. Google'a quantity gonderilmedi; mevcut availability ve fiyat akisi korundu. Kaynak alanlar: additionalimagelink, availability, brand, condition, description, googleproductcategory, id, identifierexists, imagelink, link, mpn, price, producttype, shipping, title.
