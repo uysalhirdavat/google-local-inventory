@@ -1,11 +1,11 @@
-Tarih (UTC): 2026-11-24 09:59:16
+Tarih (UTC): 2026-11-24 22:30:54
 Donusturme sonucu: success
-Commit: da2aea8b5d8a966728832bcb73b8fa358fac5292
+Commit: ddb3c856c24fdbcf20706019c9160169863db0a4
 
 Ticimax XML indiriliyor...
 UYARI: Ticimax XML'de sayisal stok alani bulunamadi. Google'a quantity gonderilmedi; mevcut availability ve fiyat akisi korundu. Kaynak alanlar: additionalimagelink, availability, brand, condition, description, googleproductcategory, id, identifierexists, imagelink, link, mpn, price, producttype, shipping, title.
-Tamamlandi: 14004 urun yazildi.
-Stok adedi bulunan: 0; bulunmayan: 14004
-Stokta: 14004; sinirli stokta: 0
-XML'e eklenmeyen stokta olmayan: 229
+Tamamlandi: 14007 urun yazildi.
+Stok adedi bulunan: 0; bulunmayan: 14007
+Stokta: 14007; sinirli stokta: 0
+XML'e eklenmeyen stokta olmayan: 221
 Dosya: local-inventory.xml
